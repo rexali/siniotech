@@ -1,113 +1,293 @@
 import Image from 'next/image'
+import Modal from './Modal'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main>
+      <a className="navbar-brand" id="goTop"></a>
+      <nav className="navbar navbar-expand-md navbar-light fixed-top" style={{ backgroundColor: "green" }} id="navbartop">
+        <a className="navbar-brand" data-toggle="collapse" data-target="#navbarCollapse">
+          <span className="fa fa-bars d-md-none" style={{ fontSize: "medium" }}></span>
+        </a>
+        <a className="navbar-brand" href="/">Siniotech</a>
+        <a className="navbar-brand  d-md-none" href="tel:+2347016807004"><i className="fa fa-phone"></i></a>
+        <div className="collapse navbar-collapse" id="navbarCollapse">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item">
+              <a className="nav-link" style={{ color: 'white' }} href="#about">ABOUT</a>
+            </li>
+            <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#service">SERVICES</a></li>
+            <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="https://mujaware.com/blog">BLOG</a></li>
+            <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#portfolio">PORTFOLIO</a></li>
+            <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#pricing">PRICING</a></li>
+            <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#training">TRAINING</a></li>
+            <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav className="nav-tabs mt-5 d-md-none scrollmenu">
+        <a className="nav-link" href="#about">ABOUT</a>
+        <a className="nav-link" href="#service">SERVICES</a>
+        <a className="nav-link" href="#portfolio">PORTFOLIO</a>
+        <a className="nav-link" href="#pricing">PRICING</a>
+        <a className="nav-link" href="#training">TRAINING</a>
+        <a className="nav-link" href="#contact">CONTACT</a>
+        <a className="nav-link" href="https://mujaware.com/blog">BLOG</a>
+      </nav>
+
+      <div className="jumbotron text-center">
+        <h1 className="text-capitalizez" style={{ fontSize: "larger" }}>Are You Looking for a Digital Marketer?</h1>
+        <p style={{ fontSize: "normal" }} >We help small businesses and companies who want to solve their problems with low sales and customer base, so they can focus on other parts of their business operations, stop worrying about low sales, reach more customers or clients and increase revenue.</p>
+        <button style={{ fontSize: 20 }} className="btn btn-success  mt-3 text-capitalize" data-toggle="modal"
+          data-target="#consultModal">Claim your Free 30 Mins Consultation Call! <br />Get in contact now.</button>
+      </div>
+
+      <div className="container text-center" id="service">
+        <div className="jumbotron">
+          <h2>Services</h2>
+          <p>What we offer</p>
+        </div>
+        <div className="row scrollrowss">
+          <div className="col-12 col-sm-12 col-md-6 col-lg-4 card">
+            <div className="card-body">
+              <h5 className="card-title">Digital advertising & publicity</h5>
+              <p className="card-text">We provide digital advertising and publicity to small businesses that want to reach more of their target audience</p>
+              <p><a className="btn btn-outline-success" href="senior-sales">Learn more</a></p>
+            </div>
+          </div>
+
+          <div className="col-12 col-sm-12 col-md-6 col-lg-4 card">
+            <div className="card-body">
+              <h5 className="card-title">Marketing and sales funnels</h5>
+              <p className="card-text">We provide marketing and sales funnels to customers and prospective clients</p>
+              <p><a className="btn btn-outline-success " href="senior-sales">Learn more</a></p>
+            </div>
+          </div>
+
+          <div className="col-12 col-sm-12 col-md-6 col-lg-4 card ">
+            <div className="card-body">
+              <h5 className="card-title">Online commerce website</h5>
+              <p className="card-text">We design and build e-commerce website with appealing and intuitive user experience and user interface that help clients to reach more customers and make sales.</p>
+              <p><a className="btn btn-outline-success " href="senior-sales">Learn more</a></p>
+            </div>
+          </div>
+
+
+
+          <div className="col-12 col-sm-12 col-md-6 col-lg-4 card ">
+            <div className="card-body">
+              <h5 className="card-title">Consulting</h5>
+              <p className="card-text">We help individuals, organisations or businesses in decision making by providing advices and recommendations or
+                acting on
+                behalf of our clients in getting their projects done</p>
+              <p><a className="btn btn-outline-success" href="senior-sales">Learn more</a></p>
+            </div>
+          </div>
+
+          <div className="col-12 col-sm-12 col-md-6 col-lg-4 card ">
+            <div className="card-body">
+              <h5 className="card-title">Coaching</h5>
+              <p className="card-text">We coach individuals, organisations or businesses in digital marketing and sales by providing support and guide.</p>
+              <p><a className="btn btn-outline-success" href="senior-sales">Learn more</a></p>
+            </div>
+          </div>
+
+          <div className="col-12 col-sm-12 col-md-6 col-lg-4 card">
+            <div className="card-body">
+              <h5 className="card-title" style={{ color: "green" }}>Trainings</h5>
+              <p className="card-text">We train our prospective students or clients on digital marketing and sales</p>
+              <p><a className="btn btn-outline-success" href="senior-sales">Learn more</a></p>
+            </div>
+          </div>
+        </div><br />
+
+
+        <div id="portfolio" className="container text-center">
+          <div className="jumbotron">
+            <h2>Portfolio</h2>
+            <p>What we have created</p>
+          </div>
+          <div className="row scrollrowss">
+
+            <div className="col-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div className="card-body">
+                <h5 className="card-title d-none">Nigeria</h5>
+                <p className="card-text">We had helped several businesses in running their advertisings and publicity digitally</p>
+              </div>
+            </div>
+
+            <div className="col-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div className="card-body">
+                <h5 className="card-title d-none">Nigeria</h5>
+                <p className="card-text">We had also helped several business in setting up their digital marketing and sales funnels
+                </p>
+              </div>
+            </div>
+
+
+            <div className="col-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div className="card-body">
+                <h5 className="card-title d-none"><strong>Nigeria</strong></h5>
+                <p className="card-text">Yes, we built online commerce website to help our clients reach more prospects and customers and make sales online.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div className="card-body">
+                <h5 className="card-title d-none"><strong>Nigeria</strong></h5>
+                <p className="card-text">Yes, we built Content Management System (CMS) to help our clients to distrubute and share their contents and informations</p>
+              </div>
+            </div>
+
+
+
+            <div className="col-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div className="card-body">
+                <h5 className="card-title d-none"><strong>Nigeria</strong></h5>
+                <p className="card-text">Yes, we had built company or business websites and web apps that convert prospects to leads and customers for our clients </p>
+              </div>
+            </div>
+
+
+            <div className="col-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div className="card-body">
+                <h5 className="card-title d-none"><strong>Nigeria</strong></h5>
+                <p className="card-text">Yes, we built Database Management System(DMS) to manage businesses or companies data</p>
+              </div>
+            </div>
+
+            <div className="col-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div className="card-body">
+                <h5 className="card-title d-none">Nigeria</h5>
+                <p className="card-text">We built Daily Business Transaction System (DTS) to help our clients manage daily business transaction</p>
+              </div>
+            </div>
+
+
+
+
+          </div>
+        </div>
+      </div><br /><br />
+
+
+
+
+      <div id="demo" className="container carousel slide text-center" data-ride="carousel">
+        <div className='jumbotron'>
+          <h3>Testimonials</h3>
+          <p>What our customers say</p>
+        </div>
+        {/* <!-- Indicators --> */}
+        <ul className="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" className="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        {/* <!-- The slideshow --> */}
+        <div className="carousel-inner">
+          <div className="carousel-item active card" style={{ borderColor: "green", height: 130, maxWidth: "100%" }}>
+            {/* <!-- <img src="la.jpg" alt="Los Angeles"> --> */}
+            <h5>This company is the best. I am so happy with the result!<br /><span>Usman Dauwud, Vice
+              President, Jafmuh Info Tech</span></h5>
+          </div>
+          <div className="carousel-item card" style={{ borderColor: "green", height: 130, maxWidth: "100%" }}>
+            {/* <!-- <img src="chicago.jpg" alt="Chicago"> --> */}
+            <h5>Thank you... wow!!<br /><span>Muhammad Mutawakkil, Computer Instructor, KCS</span></h5>
+          </div>
+          <div className="carousel-item card" style={{ borderColor: "green", height: "130px", maxWidth: "100%" }}>
+            {/* <!-- <img src="ny.jpg" alt="New York"> --> */}
+            <h5>Thank you . Impressive<br /><span>Pharm Bello Salih, CEO/Founder,
+              Bushara Pharmacy</span></h5>
+          </div>
+        </div>
+
+        {/* <!-- Left and right controls --> */}
+        <a className="carousel-control-prev" href="#demo" data-slide="prev">
+          <span className="carousel-control-prev-icon"></span>
+        </a>
+        <a className="carousel-control-next" href="#demo" data-slide="next">
+          <span className="carousel-control-next-icon"></span>
+        </a>
+
+      </div><br /><br />
+
+
+      <div className="container" id="about">
+        <div className="jumbotron text-center">
+          <h2>About Us</h2>
+          <p>Who we are</p>
+        </div>
+        <div className="row">
+          <div className="col-12 col-sm-12 col-md-12 col-lg-12 card" >
+            <p>Siniotech is digital marketing agency that specializes on digital marketing and sales and other related products or services.  </p>
+            <p>We started operating several years ago and have gathered more in experience in working with individual, group, organisation and companies</p>
+            <p>We help small businesses in running adverts and developing marketing and sales funnels that take the prospects through customer journey that bring great value to our clients</p>
+            <p>We have prided ourself on the team that have done great jobs in bringing us to this level of professionalism. </p>
+            <p>Our team comprises of local and foreign  digital marketers, content and copy writers, web designers, web developers, mobile app developer.</p>
+            <p>With this team we are able to discern ourselves remarkably from our competitors in many ways.</p>
+            {/* <!-- <p className="text-capitalize">Claim your FREE 30 Minutes Consultation Call from us!</p> --> */}
+            <p className="text-center"><button className="btn btn-success text-capitalize" data-toggle="modal"
+              data-target="#consultModal">Claim your FREE 30 Minutes Consultation Call from us! <br /> Get in contact now</button></p>
+            <br />
+
+          </div>
+        </div>
+      </div><br /><br />
+
+
+      {/* <!-- Container (Contact Section) --> */}
+      <div id="contact" className="container-fluid text-center">
+        <div className="row">
+          <div className="col-sm-5">
+            <h2 className="text-center">LOCATION</h2>
+            <p><span className="glyphicon glyphicon-map-marker"></span> #704 N-TSG-Makama, Naibawa, Kumbotso LG, Kano
+              State, Nigeria</p>
+          </div>
+
+          <div className="col-sm-7 slideanim">
+            <h2 className="text-center">SUBSCRIBE</h2>
+            <form name="subscriber-form" id="subscriber-form">
+              <div className="form-group">
+                <input type="email" className="form-control" name="email" size={50} placeholder="Email Address"
+                  required />
+              </div>
+
+              <div className="form-group text-center">
+                <button type="submit" className="btn btn-danger" id="subscribe">Subscribe</button><br />
+                <p id="subscribe_result" style={{ backgroundColor: 'green', color: "white" }}></p>
+              </div>
+            </form>
+            <p>Subscribe to our free yearly online and offline training on digital marketing and sales and be notified when it is time.</p>
+          </div>
+
         </div>
       </div>
+      {/* <!-- Image of location/map  /images/mujawaremap.png--> /images/dog_image_1.jpg*/}
+      <Image src='/images/mujawaremap.png' className='img-fluid' style={{ maxWidth: "100%",margin:10  }}  alt={'map'} width={350} height={200} />
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      {/* <!--Container (Footer section) --> */}
+      <hr />
+      <footer className="container-fluid text-center" id="desktop">
+        <a href="#goTop" title="To Top">
+          <span className="fa fa-chevron-up text-success"></span>
+        </a>
+        <p>&copy; Siniotech 2021. All right reserved</p>
+        <p><a href="privacy">Privacy policy</a>   |   <a href="terms">Terms and conditions</a></p>
+      </footer>
+
+      <div className="card">
+        <nav className="navbar navbar-expand-md navbar-light d-md-none fixed-bottom" id="navbarbtm">
+          <a className="navbar-brand" href="sms://+2347016807004" ><i className="fa fa-comment"></i></a>
+          <a className="navbar-brand" href="mailto:admin@mujaware.com"><i className="fa fa-envelope"></i></a>
+          <a className="navbar-brand" href="https://maps.google.com/maps?
+        q=Bushara+Pharmacy+Naibawa+Kumbotso+Kano+Nigeria" target="_blank"><i className="fa fa-map-marker"></i></a>
+          <a className="navbar-brand" href="https://wa.me/+2347016807004"><i className="fa fa-whatsapp"></i></a>
+        </nav>
       </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      <Modal />
     </main>
   )
 }
