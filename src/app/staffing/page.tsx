@@ -38,7 +38,8 @@ export default function RecruiterPage() {
                     <div className="row">
                         <div className="col-12">
                             <h5 className="text-center">
-                                FREE:Discover How to Get Your Free Money-making Website Without Spendng a Dime
+                                How to Recruit a Tech Talent to Fast-Track Your Business:
+                                Discover How to Quickly Get the Right Talent without Spending Dime and Time
                             </h5>
                         </div>
 
@@ -53,7 +54,7 @@ export default function RecruiterPage() {
                             </ul>
                         </div>
                         <div className='col-6'>
-                        <Image src={"/images/mypic.jpg"} height={100} width={100} alt={"picture"} className='d-block img-fluid rounded-circle mx-auto' />
+                            <Image src={"/images/mypic.jpg"} height={100} width={100} alt={"picture"} className='d-block img-fluid rounded-circle mx-auto' />
 
                             <p className='text-center'>Bello Aliyu</p>
                         </div>
@@ -64,33 +65,81 @@ export default function RecruiterPage() {
                 <div className="text-center mt-4" id="download"><a data-target="#myOptin" data-toggle="modal" className="btn btn-lg btn-warning" style={{ fontSize: "2.5vw" }}>DOWNLOAD NOW</a></div>
 
                 <p>Dear Business Owner,</p>
-                <p>I am Bello Aliyu, a web designer and digital marketer.</p>
-                <p>Let us face it, designing or developing your own website now is frustrating, time-consuming and much money involved. So let me help you.</p>
-                <p>I have decided to help you by giving you a free website template that you can edit and upload to your server if you can follow simple and easy instructions that a pupil in primary school could follow.</p>
-                <p>Imagine what it will be like to have to your business website that would make you to stand out from your competitors, get more leads and customers, and make you money.</p>
-                <p>Like I said earlier, I am a web designer and digital marketer. With this, I am in a best position to provide this type of solution to you and your business</p>
+                <p>I am Aliyu Bello, a recruiter and digital Marketer.</p>
                 <p>
-                    With this free website, you will be able to:
-                    <ul>
-                        <li> Save money without hiring web designer or developer</li>
-                        <li> Save time and get your business website online quickly</li>
-                        <li> Do do it yourself without anyone help</li>
-                        <li> Duplicate it for another new website if you want</li>
-                        <li> Turn your website visitors to leads & customers</li>
-                    </ul>
+                    Let is face it, recruiting talent on your own is frustrating at best. If you would rather spend that spend that time with friends and family, let our firm handle your talent recruitment or staffing this year for you.
                 </p>
+
+                <p> Yeah! I have also suffered from this same problem before but today It's no more.</p>
+
+
+                <p> I have worked hard day and night to solve this one problem and I believe you don't have to go through the same suffering and pain I had gone through.</p>
+
+                <p>Alas! There is a solution to your problem which is "online recruiting system" to get the right talent for your business.</p>
+
+                <p>
+                    All you need to do is to get us the job description or requirements and we will handle the rest for using our system.
+                </p>
+                <p>Besides if you want we can take care of your talent training and payment for you and you then take care of putting to a good use of the talent.</p>
+
+                <p>
+                    Imagine what it will be like to be able to get the right talent and get the job done and get your products or services to the market as quickly as possible, make more sales and profits, and reduce costs of outsourcing the task to a third party.
+                </p>
+                <p>
+                    I am a talent recruiter and a software developer. I had helped several businesses with staffing and advices on how to grow their business by getting the right talent or person to implement that your plans
+                </p>
+                <p>
+                    I discovered that many small business owners are facing problem of hiring a wrong person and the high cost associated with this process . So I decided to help  you solve it in my own well researched and followed ways.
+
+                </p>
+                <p> You will be able to:</p>
+
+                <ul>
+                    <li>  You don't need to pay anything upfront to get the right talent for you.</li>
+                    <li> You only pay when you start enjoying the service of the talent.
+                    </li>
+                    <li> You can discontinue with our services at anytime without spending a dime</li>
+                    <li> Your talent will get free training from us </li>
+                    <li> You'll get free content on how to start your to recruit with high velocity </li>
+                </ul>
                 <p>Here is a link to show you how your website will look like after you have edited and uploaded it to your server. View it here: https://siniotech.com</p>
-                <p>Besides these are what others have to say about this offer:
-                    <ul>
-                        <li> Great! Thank you. By Donaltus L.</li>
-                        <li> Lovely! I like it. I will call you soon. By Muhammad Yusuf</li>
-                        <li> Please I need it. Get one for me. By Mustapha Imam</li>
-                    </ul>
+
+                <p>I have helped several business owners to hire the right person or talent for their jobs. These what they have to say:</p>
+                <ul>
+                    <li> Great! Thank you. By Donaltus L.</li>
+                    <li> Lovely! I like it. I will call you soon. By Muhammad Yusuf</li>
+                    <li> Please I need it. Get one for me. By Mustapha Imam</li>
+                </ul>
+
+                <p>Get your free talent today and Pay only if you are satisfied with his/her services</p>
+                <p>Here is what you'll get if you take this offer now (use table):</p>
+
+                <ul>
+                    <li>One-time Fee: N100,500</li>
+                    <li>Maintenance Fee: N10,500 per month</li>
+
+                    <li>BONUS: FREE Talent Training (N300,000)</li>
+
+                    <li>BONUS: FREE Contents on how to hire a talent with high velocity  (N25,000)</li>
+                    <li>BONUS: FREE Replacement services in case our talent leave you (N100,000)</li>
+                    <li>GRAND TOTAL is : N536,000</li>
+
+                </ul>
+
+
+
+                <p>Right now you can have all these today set up for you by paying N95,000 only. Are you surprised? Don't be. Yes I mean it.</p>
+
+                <p>Register by sending a job description and requirements to us. Take this offer now. We are taking only 3 prospects so that we can render effective service to them. So be the first.
+                    Think of how much it will cost you if you do not take action on this problem.</p>
+
+                <p>
+                    If after we have get you the talent and you are dissatisfied or not pleased, you can cancel the monthly maintenance fee at anytime by just sending us an email or call.
+
                 </p>
-                <p>This business website is free. All you need to get it is to enter your active email, get your copy downloaded right away.</p>
-                <p>I have forseen a challange you may face after you mayt have downloaded it. So I have included a bonus to this offer. With this bonus you will be able to edit the website template with a simple instruction you can follow which I have added to the website template.</p>
+
+                <p>What are you waiting for? Enter your email address and tap next to get started now</p>
                 <p>Dowload your copy now before june 30 ..</p> <p className="text-center"><a data-target="#myOptin" data-toggle="modal" className="btn btn-lg btn-warning" style={{ fontSize: "2.5vw", color: "black", fontWeight: "bold" }}>DOWNLOAD NOW</a></p> <p>Think about about how much it will cost you every day if you do not take action now.</p>
-                <p>Remember I said it is free. All you need to download your copy now is your active email. If after download, you do not like it you can unsubscribe your email from our list.</p>
             </div>
             <p className="text-center mt-4" style={{ fontSize: 12 }}> <a href="privacy" className="text-success">Privacy Policy</a> | <a href="terms" className="text-success">Terms and Conditions</a></p>
 
