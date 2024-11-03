@@ -13,20 +13,20 @@ export default function Modal() {
                             <button type="button" className="close" data-dismiss="modal">&times;</button>
                         </div>
                         <div className="modal-body">
-                            <form role="form" name="myForm" id="consultationForm">
+                            <form role="form" name="myForm" id="consultationForm" method="POST" action={"/api/applications"}>
                                 <div className="form-group">
                                     <label htmlFor="firstnm"><span className="fa fa-user"></span> First Name</label>
-                                    <input type="text" className="form-control" id="fname" name="fname" placeholder="Enter first name"
+                                    <input type="text" className="form-control" id="fname" name="firstName" placeholder="Enter first name"
                                         required />
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="lastnm"><span className="fa fa-user"></span> Last Name</label>
-                                    <input type="text" className="form-control" id="lname" name="lname" placeholder="Enter last name"
+                                    <input type="text" className="form-control" id="lname" name="lastName" placeholder="Enter last name"
                                         required />
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="emai"><span className="fa fa-envelope"></span> Email Address</label>
-                                    <input type="email" className="form-control" id="email" name="email"
+                                    <input type="email" className="form-control" id="email" name="emailAddress"
                                         placeholder="Enter email address" required />
                                 </div>
                                 <div className="form-group">
@@ -37,12 +37,12 @@ export default function Modal() {
 
                                 <div className="form-group">
                                     <label htmlFor="fortime"><span className="fa fa-clock-o"></span> When should we call you?</label>
-                                    <input type="datetime-local" className="form-control" id="timetocall" name="timetocall" required />
+                                    <input type="datetime-local" className="form-control" id="timetocall" name="timeToCall" required />
                                 </div>
 
                                 <div className="form-group">
                                     <label htmlFor="skype"><span className="fa fa-skype"></span> Skype ID</label>
-                                    <input type="text" className="form-control" id="skypeid" name="skypeid"
+                                    <input type="text" className="form-control" id="skypeid" name="skypeId"
                                         placeholder="Enter Skype ID" />
                                 </div>
 
