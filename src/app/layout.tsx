@@ -26,7 +26,7 @@ export default function RootLayout({
         <title>Digital Marketing, Sales, Advertising, Web Developer, Mobile App Developer</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-        <link rel="icon" type="image/jpg" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/images/siniotech.png" />
       </head>
       <body className={inter.className}>
         {children}
