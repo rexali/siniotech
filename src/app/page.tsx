@@ -1,4 +1,5 @@
-import Image from 'next/image'
+import Image from '../../node_modules/next/image';
+
 import Modal from './Modal'
 
 export default function Home() {
@@ -17,9 +18,9 @@ export default function Home() {
               <a className="nav-link" style={{ color: 'white' }} href="#about">ABOUT</a>
             </li>
             <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#service">SERVICES</a></li>
-            <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="https://mujaware.com/blog">BLOG</a></li>
+            {/* <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="https://mujaware.com/blog">BLOG</a></li> */}
             <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#portfolio">PORTFOLIO</a></li>
-            <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#pricing">PRICING</a></li>
+            <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#testimonial">TESTIMONIAL</a></li>
             <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#training">TRAINING</a></li>
             <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#contact">CONTACT</a></li>
           </ul>
@@ -29,18 +30,31 @@ export default function Home() {
         <a className="nav-link" href="#about">ABOUT</a>
         <a className="nav-link" href="#service">SERVICES</a>
         <a className="nav-link" href="#portfolio">PORTFOLIO</a>
-        <a className="nav-link" href="#pricing">PRICING</a>
+        <a className="nav-link" href="#testimonial">TESTIMONIAL</a>
         <a className="nav-link" href="#training">TRAINING</a>
         <a className="nav-link" href="#contact">CONTACT</a>
-        <a className="nav-link" href="https://mujaware.com/blog">BLOG</a>
+        {/* <a className="nav-link" href="https://mujaware.com/blog">BLOG</a> */}
       </nav>
 
-      <div className="jumbotron text-center">
-        <h1 className="text-capitalizez" style={{ fontSize: "larger" }}>Are You Looking for a Digital Marketer?</h1>
-        <p style={{ fontSize: "normal" }} >We help small businesses and companies who want to solve their problems with low sales and customer base, so they can focus on other parts of their business operations, stop worrying about low sales, reach more customers or clients and increase revenue.</p>
-        <button style={{ fontSize: 20 }} className="btn btn-success  mt-3 text-capitalize" data-toggle="modal"
-          data-target="#consultModal">Claim your Free 30 Mins Consultation Call! <br />Get in contact now.</button>
-      </div>
+      <div className="container" id="about">
+        <div className="jumbotron text-center">
+          <h2>About Us</h2>
+          <p>Who we are</p>
+        </div>
+        <div className="row">
+          <div className="col-12 col-sm-12 col-md-12 col-lg-12 card" >
+            <p>Siniotech is digital marketing agency that specializes on digital marketing and sales and other related products or services.  </p>
+            <p>We started operating several years ago and have gathered more in experience in working with individual, group, organisation and businesses.</p>
+            <p>We help small businesses in running adverts and developing marketing and sales funnels that take the prospects through customer journey that bring great value to our clients</p>
+            <p>We prided ourselves on the team that have done great jobs in bringing us to this level of professionalism. </p>
+            <p>Our team comprises of local and foreign  digital marketers, content and copy writers, web designers, web developers, mobile app developer.</p>
+            <p>With this team we are able to discern ourselves remarkably from our competitors in many ways.</p>
+            <p className="text-center"><button className="btn btn-success text-capitalize" data-toggle="modal"
+              data-target="#consultModal">Claim your FREE 30 Minutes Consultation Call from us! <br /> Get in contact now</button></p>
+            <br />
+          </div>
+        </div>
+      </div><br /><br />
 
       <div className="container text-center" id="service">
         <div className="jumbotron">
@@ -48,6 +62,14 @@ export default function Home() {
           <p>What we offer</p>
         </div>
         <div className="row scrollrowss">
+          <div className="col-12 col-sm-12 col-md-6 col-lg-4 card">
+            <div className="card-body">
+              <h5 className="card-title">Digital Marketing</h5>
+              <p className="card-text">We provide digital marketing services to small businesses that want to reach more of their target audience</p>
+              <p><a className="btn btn-outline-success" href="senior-sales">Learn more</a></p>
+            </div>
+          </div>
+
           <div className="col-12 col-sm-12 col-md-6 col-lg-4 card">
             <div className="card-body">
               <h5 className="card-title">Digital advertising & publicity</h5>
@@ -58,7 +80,7 @@ export default function Home() {
 
           <div className="col-12 col-sm-12 col-md-6 col-lg-4 card">
             <div className="card-body">
-              <h5 className="card-title">Marketing and sales funnels</h5>
+              <h5 className="card-title">Marketing and Sales funnels</h5>
               <p className="card-text">We provide marketing and sales funnels to customers and prospective clients</p>
               <p><a className="btn btn-outline-success " href="senior-sales">Learn more</a></p>
             </div>
@@ -66,20 +88,33 @@ export default function Home() {
 
           <div className="col-12 col-sm-12 col-md-6 col-lg-4 card ">
             <div className="card-body">
-              <h5 className="card-title">Online commerce website</h5>
+              <h5 className="card-title">Business Website</h5>
+              <p className="card-text">We design and build business website with appealing and intuitive user experience and user interface that help clients to reach more customers and make sales.</p>
+              <p><a className="btn btn-outline-success " href="senior-sales">Learn more</a></p>
+            </div>
+          </div>
+
+          <div className="col-12 col-sm-12 col-md-6 col-lg-4 card ">
+            <div className="card-body">
+              <h5 className="card-title">Ecommerce Website</h5>
               <p className="card-text">We design and build e-commerce website with appealing and intuitive user experience and user interface that help clients to reach more customers and make sales.</p>
               <p><a className="btn btn-outline-success " href="senior-sales">Learn more</a></p>
             </div>
           </div>
 
-
+          <div className="col-12 col-sm-12 col-md-6 col-lg-4 card ">
+            <div className="card-body">
+              <h5 className="card-title">Mobile Apps</h5>
+              <p className="card-text">We design and build applications with appealing and intuitive user experience and user interface that help clients to reach more customers and make sales.</p>
+              <p><a className="btn btn-outline-success " href="senior-sales">Learn more</a></p>
+            </div>
+          </div>
 
           <div className="col-12 col-sm-12 col-md-6 col-lg-4 card ">
             <div className="card-body">
               <h5 className="card-title">Consulting</h5>
-              <p className="card-text">We help individuals, organisations or businesses in decision making by providing advices and recommendations or
-                acting on
-                behalf of our clients in getting their projects done</p>
+              <p className="card-text">We help individuals, organisations or businesses in decision making by providing advisory services and recommendations or
+                acting on behalf of our clients in getting their projects done</p>
               <p><a className="btn btn-outline-success" href="senior-sales">Learn more</a></p>
             </div>
           </div>
@@ -95,7 +130,7 @@ export default function Home() {
           <div className="col-12 col-sm-12 col-md-6 col-lg-4 card">
             <div className="card-body">
               <h5 className="card-title" style={{ color: "green" }}>Trainings</h5>
-              <p className="card-text">We train our prospective students or clients on digital marketing and sales</p>
+              <p className="card-text">We provide digital courses and train our prospective students or clients on digital marketing and sales, website design, web and mobile app development</p>
               <p><a className="btn btn-outline-success" href="senior-sales">Learn more</a></p>
             </div>
           </div>
@@ -119,7 +154,7 @@ export default function Home() {
             <div className="col-12 col-sm-12 col-md-6 col-lg-4 card">
               <div className="card-body">
                 <h5 className="card-title d-none">Nigeria</h5>
-                <p className="card-text">We had also helped several business in setting up their digital marketing and sales funnels
+                <p className="card-text">We had also helped several businesses in setting up their digital marketing and sales funnels
                 </p>
               </div>
             </div>
@@ -164,9 +199,6 @@ export default function Home() {
               </div>
             </div>
 
-
-
-
           </div>
         </div>
       </div><br /><br />
@@ -174,7 +206,7 @@ export default function Home() {
 
 
 
-      <div id="demo" className="container carousel slide text-center" data-ride="carousel">
+      <div id="testimonial" className="container carousel slide text-center" data-ride="carousel">
         <div className='jumbotron'>
           <h3>Testimonials</h3>
           <p>What our customers say</p>
@@ -213,31 +245,7 @@ export default function Home() {
         </a>
 
       </div><br /><br />
-
-
-      <div className="container" id="about">
-        <div className="jumbotron text-center">
-          <h2>About Us</h2>
-          <p>Who we are</p>
-        </div>
-        <div className="row">
-          <div className="col-12 col-sm-12 col-md-12 col-lg-12 card" >
-            <p>Siniotech is digital marketing agency that specializes on digital marketing and sales and other related products or services.  </p>
-            <p>We started operating several years ago and have gathered more in experience in working with individual, group, organisation and companies</p>
-            <p>We help small businesses in running adverts and developing marketing and sales funnels that take the prospects through customer journey that bring great value to our clients</p>
-            <p>We have prided ourself on the team that have done great jobs in bringing us to this level of professionalism. </p>
-            <p>Our team comprises of local and foreign  digital marketers, content and copy writers, web designers, web developers, mobile app developer.</p>
-            <p>With this team we are able to discern ourselves remarkably from our competitors in many ways.</p>
-            {/* <!-- <p className="text-capitalize">Claim your FREE 30 Minutes Consultation Call from us!</p> --> */}
-            <p className="text-center"><button className="btn btn-success text-capitalize" data-toggle="modal"
-              data-target="#consultModal">Claim your FREE 30 Minutes Consultation Call from us! <br /> Get in contact now</button></p>
-            <br />
-
-          </div>
-        </div>
-      </div><br /><br />
-
-
+      
       {/* <!-- Container (Contact Section) --> */}
       <div id="contact" className="container-fluid text-center">
         <div className="row">
@@ -265,11 +273,15 @@ export default function Home() {
 
         </div>
       </div>
-      {/* <!-- Image of location/map  /images/mujawaremap.png--> /images/dog_image_1.jpg*/}
-      <Image src='/images/mujawaremap.png' className='img-fluid' style={{ maxWidth: "100%",margin:10  }}  alt={'map'} width={350} height={200} />
+      <hr />
+
+      {/* <!-- Image of location section*/}
+      <div  className="container-fluid text-center" >
+      <Image src='/images/mujawaremap.png' className='d-block img-fluid mx-auto' sizes='100vw' style={{ width: "100%", margin: 10, height:'auto' }} alt={'map'} width={0} height={0} />
+      </div>
+      <hr />
 
       {/* <!--Container (Footer section) --> */}
-      <hr />
       <footer className="container-fluid text-center" id="desktop">
         <a href="#goTop" title="To Top">
           <span className="fa fa-chevron-up text-success"></span>
@@ -281,7 +293,7 @@ export default function Home() {
       <div className="card">
         <nav className="navbar navbar-expand-md navbar-light d-md-none fixed-bottom" id="navbarbtm">
           <a className="navbar-brand" href="sms://+2347016807004" ><i className="fa fa-comment"></i></a>
-          <a className="navbar-brand" href="mailto:admin@mujaware.com"><i className="fa fa-envelope"></i></a>
+          <a className="navbar-brand" href="mailto:siniotech@gmail.com"><i className="fa fa-envelope"></i></a>
           <a className="navbar-brand" href="https://maps.google.com/maps?
         q=Bushara+Pharmacy+Naibawa+Kumbotso+Kano+Nigeria" target="_blank"><i className="fa fa-map-marker"></i></a>
           <a className="navbar-brand" href="https://wa.me/+2347016807004"><i className="fa fa-whatsapp"></i></a>
