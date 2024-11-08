@@ -64,7 +64,7 @@ export default function MarketersPage() {
       <div className="jumbotron text-center">
         <h1 className="text-capitalizez" style={{ fontSize: "larger" }}>Are You Looking for a Digital Marketer?</h1>
         <p style={{ fontSize: "normal" }} >We help small businesses and companies who want to solve their problems with low sales and customer base, so they can focus on other parts of their business operations, stop worrying about low sales, reach more customers or clients and increase revenue.</p>
-        <p className="text-center mt-4"><a className="btn btn-outline-info font-weight-bold" href="/marketers/apply">Claim your FREE 30 Minutes Consultation Call! (Valued at N10,000) <br /> Get in touch now</a></p>  
+        <p className="text-center mt-4"><a className="btn btn-outline-info font-weight-bold" href="/marketers/apply">Claim your FREE 30 Minutes Consultation Call! (Valued at N10,000) <br /> Get in touch now</a></p>
         {/* <button style={{ fontSize: 20 }} className="btn btn-success  mt-3 text-capitalize" data-toggle="modal"
           data-target="#consultModal">Claim your Free 30 Mins Consultation Call! <br />Get in touch now.</button> */}
       </div>
@@ -178,7 +178,7 @@ export default function MarketersPage() {
         <p>
           What are you waiting for? Enter your email address and tap next to get started now
         </p>
-        <p className="text-center mt-4"><a className="btn btn-outline-success font-weight-bold" href="/marketers/apply">Claim your FREE 30 Minutes Consultation Call! (Valued at N10,000) <br /> Get in touch now</a></p>  
+        <p className="text-center mt-4"><a className="btn btn-outline-success font-weight-bold" href="/marketers/apply">Claim your FREE 30 Minutes Consultation Call! (Valued at N10,000) <br /> Get in touch now</a></p>
 
         {/* <p className='text-center'>
           <button style={{ fontSize: 20 }} className="btn btn-success  mt-3 text-capitalize" data-toggle="modal"

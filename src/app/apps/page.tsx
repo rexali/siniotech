@@ -9,7 +9,7 @@ export default function AppPage() {
       <nav className="navbar navbar-expand-md navbar-light fixed-top" style={{ backgroundColor: "green" }} id="navbartop">
         <a className="navbar-brand" data-toggle="collapse" data-target="#navbarCollapse">
           <span className="fa fa-bars d-md-none" style={{ fontSize: "medium" }}></span>
-        </a>
+        </a> 
         <a className="navbar-brand" href="/">Siniotech</a>
         <a className="navbar-brand  d-md-none" href="tel:+2347016807004"><i className="fa fa-phone"></i></a>
         <div className="collapse navbar-collapse" id="navbarCollapse">

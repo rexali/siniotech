@@ -1,4 +1,4 @@
-import Image from '../../node_modules/next/image';
+import Image from 'next/image';
 
 import Modal from './Modal'
 
@@ -55,7 +55,7 @@ export default function Home() {
             <p>With this team we are able to discern ourselves remarkably from our competitors in many ways.</p>
             <p className="text-center">
               {/* <button className="btn btn-success text-capitalize" data-toggle="modal"data-target="#consultModal"> */}
-              <a className="btn btn-outline-success" href="/staffing/employers/apply">Claim your FREE 30 Minutes Consultation Call from us! <br /> Get in contact now</a>
+              <a className="btn btn-outline-success font-weight-bold" href="/staffing/employers">Claim your FREE 30 Minutes Consultation Call from us! <br /> Get in contact now</a>
               {/* </button> */}
             </p>
             <br />

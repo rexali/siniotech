@@ -75,7 +75,7 @@ export default function StaffingPage() {
                 <h1 className="text-capitalizez" style={{ fontSize: "larger" }}>Are You Looking to Hire a Right Talent for Your Business?</h1>
                 <p style={{ fontSize: "normal" }} >We help small businesses who want to hire the right talents for their businesses, so they can focus on other parts of their business operations</p>
                 <p className="text-center mt-4">
-                    <a className="btn btn-outline-success font-weight-bold" href="/staffing/apply">
+                    <a className="btn btn-outline-success font-weight-bold" href="/staffing/employers">
                         Claim your Free 30 Mins Consultation Call! (valued at N10,000) <br />Get in touch now
                     </a>
                 </p>
@@ -178,7 +178,7 @@ export default function StaffingPage() {
 
 
                 <p className="text-center mt-4">
-                    <a className="btn btn-outline-success font-weight-bold" href="/staffing/apply">
+                    <a className="btn btn-outline-success font-weight-bold" href="/staffing/employers">
                         Claim your Free 30 Mins Consultation Call! (valued at N10,000) <br />Get in touch now
                     </a>
                 </p>
