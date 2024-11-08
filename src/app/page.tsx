@@ -123,7 +123,7 @@ export default function Home() {
               <h5 className="card-title">Consulting</h5>
               <p className="card-text">We help individuals, organisations or businesses in decision making by providing advisory services and recommendations or
                 acting on behalf of our clients in getting their projects done</p>
-              <p><a className="btn btn-outline-success" href="/staffing/employers/apply">Learn more</a></p>
+              <p><a className="btn btn-outline-success" href="/staffing/employers">Learn more</a></p>
             </div>
           </div>
 
@@ -131,7 +131,7 @@ export default function Home() {
             <div className="card-body">
               <h5 className="card-title">Coaching</h5>
               <p className="card-text">We coach individuals, organisations or businesses in digital marketing and sales by providing support and guide.</p>
-              <p><a className="btn btn-outline-success" href="staffing/employers/apply">Learn more</a></p>
+              <p><a className="btn btn-outline-success" href="staffing/employers">Learn more</a></p>
             </div>
           </div>
 
@@ -139,7 +139,7 @@ export default function Home() {
             <div className="card-body">
               <h5 className="card-title" style={{ color: "green" }}>Trainings</h5>
               <p className="card-text">We provide digital courses and train our prospective students or clients on digital marketing and sales, website design, web and mobile app development</p>
-              <p><a className="btn btn-outline-success" href="/staffing/employers/apply">Learn more</a></p>
+              <p><a className="btn btn-outline-success" href="/staffing/employers">Learn more</a></p>
             </div>
           </div>
         </div>

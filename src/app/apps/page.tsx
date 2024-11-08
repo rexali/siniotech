@@ -103,7 +103,7 @@ export default function AppPage() {
             <div className="card-body">
               <h5 className="card-title">Business Website</h5>
               <p className="card-text">We design and build business website with appealing and intuitive user experience and user interface that help clients to reach more customers and make sales.</p>
-              <p><a className="btn btn-outline-success " href="senior-sales">Learn more</a></p>
+              <p><a className="btn btn-outline-success " href="/apps">Learn more</a></p>
             </div>
           </div>
 
@@ -111,7 +111,7 @@ export default function AppPage() {
             <div className="card-body">
               <h5 className="card-title">Ecommerce Website</h5>
               <p className="card-text">We design and build e-commerce website with appealing and intuitive user experience and user interface that help clients to reach more customers and make sales.</p>
-              <p><a className="btn btn-outline-success " href="senior-sales">Learn more</a></p>
+              <p><a className="btn btn-outline-success " href="/apps">Learn more</a></p>
             </div>
           </div>
 
@@ -119,7 +119,7 @@ export default function AppPage() {
             <div className="card-body">
               <h5 className="card-title">Web & Mobile Apps</h5>
               <p className="card-text">We design and build applications with appealing and intuitive user experience and user interface that help clients to reach more customers and make sales.</p>
-              <p><a className="btn btn-outline-success " href="senior-sales">Learn more</a></p>
+              <p><a className="btn btn-outline-success " href="/apps">Learn more</a></p>
             </div>
           </div>
 
@@ -128,7 +128,7 @@ export default function AppPage() {
               <h5 className="card-title">Consulting</h5>
               <p className="card-text">We help individuals, organisations or businesses in decision making by providing advisory services and recommendations or
                 acting on behalf of our clients in getting their projects done</p>
-              <p><a className="btn btn-outline-success" href="senior-sales">Learn more</a></p>
+              <p><a className="btn btn-outline-success" href="/apps">Learn more</a></p>
             </div>
           </div>
 
@@ -136,7 +136,7 @@ export default function AppPage() {
             <div className="card-body">
               <h5 className="card-title">Coaching</h5>
               <p className="card-text">We coach individuals, organisations or businesses in digital marketing and sales by providing support and guide.</p>
-              <p><a className="btn btn-outline-success" href="senior-sales">Learn more</a></p>
+              <p><a className="btn btn-outline-success" href="/apps">Learn more</a></p>
             </div>
           </div>
 
@@ -144,7 +144,7 @@ export default function AppPage() {
             <div className="card-body">
               <h5 className="card-title" style={{ color: "green" }}>Trainings</h5>
               <p className="card-text">We provide digital courses and train our prospective students or clients on digital marketing and sales, website design, web and mobile app development</p>
-              <p><a className="btn btn-outline-success" href="senior-sales">Learn more</a></p>
+              <p><a className="btn btn-outline-success" href="/apps">Learn more</a></p>
             </div>
           </div>
         </div>
