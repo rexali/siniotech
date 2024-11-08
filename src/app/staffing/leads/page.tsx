@@ -1,4 +1,4 @@
-import Image from '../../../../../node_modules/next/image';
+import Image from 'next/image';
 
 export default function RecruiterPage() {
 
@@ -36,7 +36,7 @@ export default function RecruiterPage() {
                 </nav>
             </div>
             <div>
-                <iframe className="d-block mx-auto" width="640" height="1140" src="https://docs.google.com/forms/d/e/1FAIpQLScjmWpo1EBRHxTDQpnkcWIbVpz4B4UrDLZ7wG2rB3h_F49K0w/viewform?embedded=true" >Loading…</iframe>
+                <iframe className="d-block mx-auto" src="https://docs.google.com/forms/d/e/1FAIpQLSc1FVrOpYmkV31GRp_rv0qRsybJC7VEI8qA1c8jOmhoGEEbyg/viewform?embedded=true" width="700" height="520">Loading…</iframe>
             </div>
         </main>
     )

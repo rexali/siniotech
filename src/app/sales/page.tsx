@@ -33,13 +33,13 @@ export default function SalesPage() {
                     <a className="nav-link" href="#pricing">PRICING</a>
                     <a className="nav-link" href="#training">TRAINING</a>
                     <a className="nav-link" href="#contact">CONTACT</a>
-                    <a className="nav-link" href="https://mujaware.com/blog">BLOG</a>
+                    {/* <a className="nav-link" href="https://mujaware.com/blog">BLOG</a> */}
                 </nav>
                 <div className='bg-success text-white d-flex justify-content-center align-items-center' style={{ marginTop: 60 }}>
                     <div className="row">
                         <div className="col-12">
-                            <h4 className="text-white text-center">Make More Sales:</h4>
-                            <h5 className="text-warning text-center">Discover How to Quickly Make More Sales and Profit Reaching More Prospects and Customers</h5><br />
+                            <h4 className="text-white text-center">Make More Sales in Facebook:</h4>
+                            <h4 className="text-white text-center">Discover How to Quickly Make More Sales and Profit Reaching More Prospects and Customers</h4><br />
                         </div>
 
                         <div className='col-6'>
@@ -59,8 +59,10 @@ export default function SalesPage() {
                     </div>
                 </div>
                 {/* <!--start of optin copy--> */}
-
-                <div className="text-center mt-4" id="download"><a data-target="#myOptin" data-toggle="modal" className="btn btn-lg btn-warning" style={{ fontSize: "2.5vw" }}>DOWNLOAD NOW</a></div>
+                <p className="text-center">
+                    <a className="btn btn-outline-success" href="/staffing/employers/apply">Claim your FREE 30 Minutes Consultation Call from us! <br /> Get in contact now</a>
+                </p>
+                {/* <div className="text-center mt-4" id="download"><a data-target="#myOptin" data-toggle="modal" className="btn btn-lg btn-warning" style={{ fontSize: "2.5vw" }}>DOWNLOAD NOW</a></div> */}
                 {/* <!--Sales letter--> */}
                 <div className="text-black mt-4">
                     <Image src={"/images/mypic.jpg"} height={100} width={100} alt={"picture"} className='d-block img-fluid rounded-circle mx-auto' />
@@ -85,17 +87,18 @@ export default function SalesPage() {
                     <p>From data analysis I carried out, I discovered that many small business owners are facing problem of high cost of building a website coupled with marketing expense. So I decided to help solve it in my own way.</p>
                     <p>
                         If you give us the opportunity to help you, here is What you will get from us:
-                        <ul className="list-group list-group-flush">
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> Marketing funnel to reach more prospects and acquire more leads</li>
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> Sales funnel to monetize the leads and customers and</li>
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> Marketing software (Email Marketing Software) to send email and engage and turn the customers to advocates and promoters</li>
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>  Quarterly Report to helps you make informed business decision making</li>
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>  Advert copies and running adverts to pull traffic to your marketing funnel</li>
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>  Email copies to load into marketing software  and engage your leads and customers</li>
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>  Advisory or counseling on digital marketing and sales tools</li>
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>  Hiring and training of sales representative to close sales for you</li>
-                        </ul>
                     </p>
+
+                    <ul className="list-group list-group-flush">
+                        <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> Marketing funnel to reach more prospects and acquire more leads</li>
+                        <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> Sales funnel to monetize the leads and customers and</li>
+                        <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> Marketing software (Email Marketing Software) to send email and engage and turn the customers to advocates and promoters</li>
+                        <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>  Quarterly Report to helps you make informed business decision making</li>
+                        <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>  Advert copies and running adverts to pull traffic to your marketing funnel</li>
+                        <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>  Email copies to load into marketing software  and engage your leads and customers</li>
+                        <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>  Advisory or counseling on digital marketing and sales tools</li>
+                        <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>  Hiring and training of sales representative to close sales for you</li>
+                    </ul>
                     <p>Here is a link to see a demo below of what you are going to get:</p>
 
                     <p className="text-center" id="contact"><button className="btn btn-sm btn-warning text-white">Watch demo</button></p>

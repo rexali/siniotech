@@ -1,74 +1,107 @@
 import Image from "next/image";
 
-export default function RecruiterPage() {
+export default function StaffingPage() {
 
     return (
         <main>
-            <div className="container text-black mt-4">
-                <nav className="navbar navbar-expand-md navbar-light fixed-top" style={{ backgroundColor: "green" }} id="navbartop">
-                    <a className="navbar-brand" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span className="fa fa-bars d-md-none" style={{ fontSize: "medium" }}></span>
-                    </a>
-                    <a className="navbar-brand" href="/">Siniotech</a>
-                    <a className="navbar-brand  d-md-none" href="tel:+2347016807004"><i className="fa fa-phone"></i></a>
-                    <div className="collapse navbar-collapse" id="navbarCollapse">
-                        <ul className="navbar-nav mr-auto">
-                            <li className="nav-item">
-                                <a className="nav-link" style={{ color: 'white' }} href="#about">ABOUT</a>
-                            </li>
-                            <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#service">SERVICES</a></li>
-                            <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="https://mujaware.com/blog">BLOG</a></li>
-                            <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#portfolio">PORTFOLIO</a></li>
-                            <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#pricing">PRICING</a></li>
-                            <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#training">TRAINING</a></li>
-                            <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#contact">CONTACT</a></li>
+            <a className="navbar-brand" id="goTop"></a>
+
+            <nav className="navbar navbar-expand-md navbar-light fixed-top" style={{ backgroundColor: "green" }} id="navbartop">
+                <a className="navbar-brand" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span className="fa fa-bars d-md-none" style={{ fontSize: "medium" }}></span>
+                </a>
+                <a className="navbar-brand" href="/">Siniotech</a>
+                <a className="navbar-brand  d-md-none" href="tel:+2347016807004"><i className="fa fa-phone"></i></a>
+                <div className="collapse navbar-collapse" id="navbarCollapse">
+                    <ul className="navbar-nav mr-auto">
+                        <li className="nav-item">
+                            <a className="nav-link" style={{ color: 'white' }} href="#about">ABOUT</a>
+                        </li>
+                        <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#service">SERVICES</a></li>
+                        <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="https://mujaware.com/blog">BLOG</a></li>
+                        <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#portfolio">PORTFOLIO</a></li>
+                        <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#pricing">PRICING</a></li>
+                        <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#training">TRAINING</a></li>
+                        <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav><br /><br />
+            <nav className="nav-tabs d-md-none scrollmenu">
+                <a className="nav-link" href="#about">ABOUT</a>
+                <a className="nav-link" href="#service">SERVICES</a>
+                <a className="nav-link" href="#portfolio">PORTFOLIO</a>
+                <a className="nav-link" href="#pricing">PRICING</a>
+                <a className="nav-link" href="#training">TRAINING</a>
+                <a className="nav-link" href="#contact">CONTACT</a>
+                <a className="nav-link" href="https://mujaware.com/blog">BLOG</a>
+            </nav>
+
+            <div className='container bg-success text-white d-flex justify-content-center align-items-center' style={{ marginTop: 60 }}>
+                <div className="row">
+                    <div className="col-12">
+                        <h5 className="text-center">
+                            How to Recruit a Tech Talent to Fast-Track Your Business:
+                            Discover How to Quickly Get the Right Talent without Spending Dime and Time
+                        </h5>
+                    </div>
+
+                    <div className='col-6'>
+                        What you will get:
+                        <ul className="list-group list-group-flush">
+
+                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> You do not need to pay anything upfront to get the right talent for you.</li>
+                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> You only pay when you start enjoying the service of the talent.</li>
+                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> You can discontinue with our services at anytime without spending a dime</li>
+                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> Your talent will get free training from us </li>
+                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> You will get free content on how to recruit a talents with high speed</li>
+
                         </ul>
                     </div>
-                </nav><br /><br />
-                <nav className="nav-tabs d-md-none scrollmenu">
-                    <a className="nav-link" href="#about">ABOUT</a>
-                    <a className="nav-link" href="#service">SERVICES</a>
-                    <a className="nav-link" href="#portfolio">PORTFOLIO</a>
-                    <a className="nav-link" href="#pricing">PRICING</a>
-                    <a className="nav-link" href="#training">TRAINING</a>
-                    <a className="nav-link" href="#contact">CONTACT</a>
-                    <a className="nav-link" href="https://mujaware.com/blog">BLOG</a>
-                </nav>
-                <div className='bg-success text-white d-flex justify-content-center align-items-center' style={{ marginTop: 60 }}>
-                    <div className="row">
-                        <div className="col-12">
-                            <h5 className="text-center">
-                                How to Recruit a Tech Talent to Fast-Track Your Business:
-                                Discover How to Quickly Get the Right Talent without Spending Dime and Time
-                            </h5>
-                        </div>
-
-                        <div className='col-6'>
-                            You will be able to:
-                            <ul className="list-group list-group-flush">
-
-                                <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> You do not need to pay anything upfront to get the right talent for you.</li>
-                                <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> You only pay when you start enjoying the service of the talent.
-                                </li>
-                                <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> You can discontinue with our services at anytime without spending a dime</li>
-                                <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> Your talent will get free training from us </li>
-                                <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> You will get free content on how to start your to recruit with high velocity </li>
-
-                            </ul>
-                        </div>
-                        <div className='col-6'>
-                            <Image src={"/images/mypic.jpg"} height={100} width={100} alt={"picture"} className='d-block img-fluid rounded-circle mx-auto' />
-
-                            <p className='text-center'>Bello Aliyu</p>
-                        </div>
+                    <div className='col-6'>
+                        <Image src={"/images/mypic.jpg"} height={100} width={100} alt={"picture"} className='d-block img-fluid img-thumbnail mx-auto' />
+                        <p className='text-center'>Bello Aliyu</p>
                     </div>
                 </div>
-                {/* <!--start of optin copy--> */}
+            </div>
+            {/* <!--start of optin copy--> */}
+            <p className="text-center mt-4"><a className="btn btn-outline-warning font-weight-bold" href="/staffing/leads">DOWNLOAD NOW</a></p>
 
-                <div className="text-center mt-4" id="download"><a data-target="#myOptin" data-toggle="modal" className="btn btn-lg btn-warning" style={{ fontSize: "2.5vw" }}>DOWNLOAD NOW</a></div>
+            {/* <div className="text-center my-4" id="download">
+                <a data-target="#myOptin" data-toggle="modal" className="btn btn-lg btn-warning" style={{ fontSize: "2.5vw" }}>DOWNLOAD NOW</a>
+            
+            </div> */}
+
+            <div className="jumbotron text-center">
+                <h1 className="text-capitalizez" style={{ fontSize: "larger" }}>Are You Looking to Hire a Right Talent for Your Business?</h1>
+                <p style={{ fontSize: "normal" }} >We help small businesses who want to hire the right talents for their businesses, so they can focus on other parts of their business operations</p>
+                <p className="text-center mt-4">
+                    <a className="btn btn-outline-success font-weight-bold" href="/staffing/apply">
+                        Claim your Free 30 Mins Consultation Call! (valued at N10,000) <br />Get in touch now
+                    </a>
+                </p>
+                {/* <button style={{ fontSize: 20 }} className="btn btn-success  mt-3 text-capitalize" data-toggle="modal"
+                    data-target="#consultModal">Claim your Free 30 Mins Consultation Call! (valued at N10,000) <br />
+                    Get in touch now.
+                    </button> */}
+            </div>
+            <div className="jumbotron">
+                <p style={{ fontSize: "normal" }} >We specialize in hiring the following talents:</p>
+                <ul>
+                    <li>Software Developer/Engineer (for Mobile and Web App)</li>
+                    <li>Digital Marketer</li>
+                    <li>Data Scientist/Analyst</li>
+                    <li>Content Creator/Marketer</li>
+                    <li>DevOps Engineer</li>
+                    <li>Quality Assurance Engineer</li>
+                </ul>
+            </div>
+
+            <div className="jumbotron">
 
                 <p>Dear Business Owner,</p>
+
                 <p>I am Aliyu Bello, a recruiter and digital Marketer.</p>
+
                 <p>
                     Let us face it, recruiting talent on your own is frustrating at best. If you would rather spend that spend that time with friends and family, let our firm handle your talent recruitment or staffing this year for you.
                 </p>
@@ -93,8 +126,8 @@ export default function RecruiterPage() {
                 </p>
                 <p>
                     I discovered that many small business owners are facing problem of hiring a wrong person and the high cost associated with this process . So I decided to help  you solve it in my own well researched and followed ways.
-
                 </p>
+
                 <p> You will be able to:</p>
 
                 <ul>
@@ -141,11 +174,49 @@ export default function RecruiterPage() {
 
                 </p>
 
-                <p>What are you waiting for? Enter your email address and tap next to get started now</p>
-                <p>Dowload your copy now before june 30 ..</p> <p className="text-center"><a data-target="#myOptin" data-toggle="modal" className="btn btn-lg btn-warning" style={{ fontSize: "2.5vw", color: "black", fontWeight: "bold" }}>DOWNLOAD NOW</a></p> <p>Think about about how much it will cost you every day if you do not take action now.</p>
-            </div>
-            <p className="text-center mt-4" style={{ fontSize: 12 }}> <a href="privacy" className="text-success">Privacy Policy</a> | <a href="terms" className="text-success">Terms and Conditions</a></p>
+                <p>Think about about how much it will cost you every day if you do not take action now.</p>
 
+
+                <p className="text-center mt-4">
+                    <a className="btn btn-outline-success font-weight-bold" href="/staffing/apply">
+                        Claim your Free 30 Mins Consultation Call! (valued at N10,000) <br />Get in touch now
+                    </a>
+                </p>
+            </div>
+
+            {/* container */}
+            <div className='container bg-success text-white d-flex justify-content-center align-items-center' style={{ marginTop: 60 }}>
+                <div className="row">
+                    <div className="col-12">
+                        <h5 className="text-center">
+                            How to Recruit a Tech Talent to Fast-Track Your Business:
+                            Discover How to Quickly Get the Right Talent without Spending Dime and Time
+                        </h5>
+                    </div>
+
+                    <div className='col-6'>
+                        You will be able to:
+                        <ul className="list-group list-group-flush">
+
+                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> You do not need to pay anything upfront to get the right talent for you.</li>
+                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> You only pay when you start enjoying the service of the talent.
+                            </li>
+                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> You can discontinue with our services at anytime without spending a dime</li>
+                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> Your talent will get free training from us </li>
+                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i> You will get free content on how to start your to recruit with high velocity </li>
+
+                        </ul>
+                    </div>
+                    <div className='col-6'>
+                        <Image src={"/images/mypic.jpg"} height={100} width={100} alt={"picture"} className='d-block img-fluid img-thumbnail mx-auto' />
+                        <p className='text-center'>Bello Aliyu</p>
+                    </div>
+                </div>
+            </div>
+            {/* <!-- optin end--> */}
+            <p className="text-center mt-4"><a className="btn btn-outline-success font-weight-bold" href="/staffing/leads">DOWNLOAD NOW</a></p>
+
+            <p className="text-center mt-4" style={{ fontSize: 12 }}> <a href="privacy" className="text-success">Privacy Policy</a> | <a href="terms" className="text-success">Terms and Conditions</a></p>
         </main>
     )
 
