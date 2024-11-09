@@ -31,27 +31,21 @@ export default function Page() {
                 <a className="nav-link" href="#training">TRAINING</a>
                 <a className="nav-link" href="#contact">CONTACT</a>
                 <a className="nav-link" href="https://mujaware.com/blog">BLOG</a>
-            </nav>
-            <div style={{
-                position: 'relative',
-                width: '100%',
-                overflow: 'hidden',
-                paddingTop: '56.25%'
-            }}>
-                <iframe
-                    className="d-block mx-auto"
-                    style={{
-                        position: 'absolute',
-                        top: 0,
-                        bottom: 0,
-                        right: 0,
-                        left: 0,
-                        width: '100%',
-                        height: '100%',
-                        border: 'none'
-                    }}
-                    src="https://docs.google.com/forms/d/e/1FAIpQLScyKvPLMuHLp6kpp5oOzOPcGIs9YDNgpcrEPhyneJipvTKigg/viewform?embedded=true" width="700" height="520">Loading…</iframe>
-            </div>
+            </nav><br /><br />
+
+            <iframe
+                className="d-block mx-auto mt-4"
+                style={{
+                    position: 'absolute',
+                    top: 100,
+                    bottom: 0,
+                    right: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    border: 'none'
+                }}
+                src="https://docs.google.com/forms/d/e/1FAIpQLScyKvPLMuHLp6kpp5oOzOPcGIs9YDNgpcrEPhyneJipvTKigg/viewform?embedded=true" width="700" height="520">Loading…</iframe>
         </main>
     )
 

@@ -34,17 +34,11 @@ export default function Page() {
                     <a className="nav-link" href="https://mujaware.com/blog">BLOG</a>
                 </nav>
         
-            <div style={{
-                position:'relative',
-                width:'100%',
-                overflow:'hidden',
-                paddingTop:'56.25%'
-            }}>
                 <iframe
-                 className="d-block mx-auto"
+                 className="d-block mx-auto mt-4"
                  style={{
                    position:'absolute',
-                   top:0,
+                   top:100,
                    bottom:0,
                    right:0,
                    left:0,
@@ -53,7 +47,7 @@ export default function Page() {
                    border:'none'
                  }} 
                  src="https://docs.google.com/forms/d/e/1FAIpQLSc1FVrOpYmkV31GRp_rv0qRsybJC7VEI8qA1c8jOmhoGEEbyg/viewform?embedded=true">Loading…</iframe>
-            </div>
+
         </main>
     )
 
