@@ -6,9 +6,6 @@ export default function Home() {
 
   return (
     <main>
-      {/* coaching & consulting <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeCgqR3zQ-wxJ7AoWiUNS53HwGFcAEQsTDpK2dbt2F34-uNzw/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
-      {/* Training <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScj_en5iV1DYHBtr5Uq7f6QbJC9qGzODRxhnaI0IvxR-FkO6A/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
-      {/* consulting <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScyKvPLMuHLp6kpp5oOzOPcGIs9YDNgpcrEPhyneJipvTKigg/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
       <a className="navbar-brand" id="goTop"></a>
       <nav className="navbar navbar-expand-md navbar-light fixed-top" style={{ backgroundColor: "green" }} id="navbartop">
         <a className="navbar-brand" data-toggle="collapse" data-target="#navbarCollapse">
@@ -22,7 +19,6 @@ export default function Home() {
               <a className="nav-link" style={{ color: 'white' }} href="#about">ABOUT</a>
             </li>
             <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#service">SERVICES</a></li>
-            {/* <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="https://mujaware.com/blog">BLOG</a></li> */}
             <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#portfolio">PORTFOLIO</a></li>
             <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#testimonial">TESTIMONIAL</a></li>
             <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#training">TRAINING</a></li>
@@ -37,7 +33,6 @@ export default function Home() {
         <a className="nav-link" href="#testimonial">TESTIMONIAL</a>
         <a className="nav-link" href="#training">TRAINING</a>
         <a className="nav-link" href="#contact">CONTACT</a>
-        {/* <a className="nav-link" href="https://mujaware.com/blog">BLOG</a> */}
       </nav>
       <div className="jumbotron text-center mt-4">
         <h2>About Us</h2>
@@ -54,9 +49,7 @@ export default function Home() {
             <p>Our team comprises of local and foreign  digital marketers, content and copy writers, web designers, web developers, mobile app developer.</p>
             <p>With this team we are able to discern ourselves remarkably from our competitors in many ways.</p>
             <p className="text-center">
-              {/* <button className="btn btn-success text-capitalize" data-toggle="modal"data-target="#consultModal"> */}
               <a className="btn btn-outline-success font-weight-bold" href="/staffing/employers">Claim your FREE 30 Minutes Consultation Call from us! <br /> Get in contact now</a>
-              {/* </button> */}
             </p>
             <br />
           </div>
@@ -286,16 +279,7 @@ export default function Home() {
         <Image src='/images/mujawaremap.png' className='d-block img-fluid mx-auto' sizes='100vw' style={{ width: "100%", margin: 10, height: 'auto' }} alt={'map'} width={0} height={0} />
       </div>
       <hr />
-
-      {/* <!--Container (Footer section) --> */}
-      <footer className="container-fluid text-center" id="desktop">
-        <a href="#goTop" title="To Top">
-          <span className="fa fa-chevron-up text-success"></span>
-        </a>
-        <p>&copy; Siniotech 2021. All right reserved</p>
-        <p><a href="privacy">Privacy policy</a>   |   <a href="terms">Terms and conditions</a></p>
-      </footer>
-
+      {/* mobile views footers */}
       <div className="card">
         <nav className="navbar navbar-expand-md navbar-light d-md-none fixed-bottom" id="navbarbtm">
           <a className="navbar-brand" href="sms://+2347016807004" ><i className="fa fa-comment"></i></a>

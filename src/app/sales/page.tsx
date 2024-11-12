@@ -1,4 +1,4 @@
-import Image from '../../../node_modules/next/image';
+import Image from 'next/image';
 
 
 export default function SalesPage() {
@@ -129,14 +129,6 @@ export default function SalesPage() {
                     <p>Schedule a free consultation call to take this offer now. We are taking only 10 prospects so that we can render effective service to them. So be the first.</p>
                     <p>If after we have set it up for you and you are dissatisfied or not pleased you can cancel the monthly maintenance fee at anytime by just sending us an email or call.</p>
                     <p className="text-center"><a href="#consultModal" data-toggle="modal" className="btn btn-warning">Claim Your Free Consultation Call Now</a></p>
-
-                    <footer className="container-fluid text-center" id="desktop">
-                        <a href="#goTop" title="To Top">
-                            <span className="fa fa-chevron-up text-success"></span>
-                        </a>
-                        <p>&copy; Siniotech 2021. All right reserved</p>
-                        <p><a href="privacy" className="text-warning">Privacy policy</a>   |   <a href="terms" className="text-warning">Terms and conditions</a></p>
-                    </footer>
                 </div>
             </div>
         </main>
