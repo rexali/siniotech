@@ -30,14 +30,6 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         {children}
-        {/* <!--Container (Footer section) --> */}
-        <footer className="container-fluid text-center" id="desktop">
-          <a href="#goTop" title="To Top">
-            <span className="fa fa-chevron-up text-success"></span>
-          </a>
-          <p>&copy; Siniotech 2024. All right reserved</p>
-          <p><a href="privacy">Privacy policy</a>   |   <a href="terms">Terms and conditions</a></p>
-        </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" async></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" async></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" async></script>

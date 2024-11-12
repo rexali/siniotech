@@ -23,15 +23,6 @@ export default function RecruiterPage() {
                     </ul>
                 </div>
             </nav><br /><br />
-            <nav className="nav-tabs d-md-none scrollmenu">
-                <a className="nav-link" href="#about">ABOUT</a>
-                <a className="nav-link" href="#service">SERVICES</a>
-                <a className="nav-link" href="#portfolio">PORTFOLIO</a>
-                <a className="nav-link" href="#pricing">PRICING</a>
-                <a className="nav-link" href="#training">TRAINING</a>
-                <a className="nav-link" href="#contact">CONTACT</a>
-                <a className="nav-link" href="https://mujaware.com/blog">BLOG</a>
-            </nav>
             
                 <iframe
                     className="d-block mx-auto mt-4"

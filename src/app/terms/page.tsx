@@ -1,7 +1,7 @@
 export default function TermsPage() {
 
     return (
-        <main>
+        <main className="container mt-4">
             <h1>Terms and conditions</h1>
             <p>These terms and conditions (&quot;Terms&quot;, &quot;Agreement&quot;) are an agreement between Website Operator (&quot;Website Operator&quot;, &quot;us&quot;, &quot;we&quot; or &quot;our&quot;) and you (&quot;User&quot;, &quot;you&quot; or &quot;your&quot;). This Agreement sets forth the general terms and conditions of your use of the <a target="_blank" rel="nofollow" href="https://siniotech.com">siniotech.com</a> website and any of its products or services (collectively, &quot;Website&quot; or &quot;Services&quot;).</p>
             <h2>Links to other websites</h2>

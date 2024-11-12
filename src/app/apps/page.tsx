@@ -320,16 +320,16 @@ export default function AppPage() {
       </div>
       {/* <!--start of optin copy--> */}
       <p className="text-center mt-4"><a className="btn btn-outline-warning font-weight-bold" href="/apps/leads">Get Yours Now for Free</a></p>
-
+     
       {/* <!--Container (Footer section) --> */}
-      <footer className="container-fluid text-center" id="desktop">
-        <a href="#goTop" title="To Top">
-          <span className="fa fa-chevron-up text-success"></span>
-        </a>
-        <p>&copy; Siniotech 2021. All right reserved</p>
-        <p><a href="privacy">Privacy policy</a>   |   <a href="terms">Terms and conditions</a></p>
-      </footer>
-
+        <footer className="container-fluid text-center" id="desktop">
+          <a href="#goTop" title="To Top">
+            <span className="fa fa-chevron-up text-success"></span>
+          </a>
+          <p><a href="privacy">Privacy policy</a>   |   <a href="terms">Terms and conditions</a></p>
+          <p>&copy; Siniotech 2024. All right reserved</p>
+        </footer>
+     
       <div className="card">
         <nav className="navbar navbar-expand-md navbar-light d-md-none fixed-bottom" id="navbarbtm">
           <a className="navbar-brand" href="sms://+2347016807004" ><i className="fa fa-comment"></i></a>

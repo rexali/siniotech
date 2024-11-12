@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function StaffingPage() {
+export default function StaffingsPage() {
 
     return (
         <main>
@@ -26,15 +26,7 @@ export default function StaffingPage() {
                     </ul>
                 </div>
             </nav><br /><br />
-            <nav className="nav-tabs d-md-none scrollmenu">
-                <a className="nav-link" href="#about">ABOUT</a>
-                <a className="nav-link" href="#service">SERVICES</a>
-                <a className="nav-link" href="#portfolio">PORTFOLIO</a>
-                <a className="nav-link" href="#pricing">PRICING</a>
-                <a className="nav-link" href="#training">TRAINING</a>
-                <a className="nav-link" href="#contact">CONTACT</a>
-                <a className="nav-link" href="https://mujaware.com/blog">BLOG</a>
-            </nav>
+
 
             <div className='container bg-success text-white d-flex justify-content-center align-items-center' style={{ marginTop: 60 }}>
                 <div className="row">
@@ -64,7 +56,7 @@ export default function StaffingPage() {
                 </div>
             </div>
             {/* <!--start of optin copy--> */}
-            <p className="text-center mt-4"><a className="btn btn-outline-warning font-weight-bold" href="/staffing/leads">DOWNLOAD NOW</a></p>
+            <p className="text-center mt-4"><a className="btn btn-outline-warning font-weight-bold" href="/staffings/leads">DOWNLOAD NOW</a></p>
 
             {/* <div className="text-center my-4" id="download">
                 <a data-target="#myOptin" data-toggle="modal" className="btn btn-lg btn-warning" style={{ fontSize: "2.5vw" }}>DOWNLOAD NOW</a>
@@ -75,7 +67,7 @@ export default function StaffingPage() {
                 <h1 className="text-capitalizez" style={{ fontSize: "larger" }}>Are You Looking to Hire a Right Talent for Your Business?</h1>
                 <p style={{ fontSize: "normal" }} >We help small businesses who want to hire the right talents for their businesses, so they can focus on other parts of their business operations</p>
                 <p className="text-center mt-4">
-                    <a className="btn btn-outline-success font-weight-bold" href="/staffing/employers">
+                    <a className="btn btn-outline-success font-weight-bold" href="/staffings/employers">
                         Claim your Free 30 Mins Consultation Call! (valued at N10,000) <br />Get in touch now
                     </a>
                 </p>
@@ -103,7 +95,7 @@ export default function StaffingPage() {
                 <p>I am Aliyu Bello, a recruiter and digital Marketer.</p>
 
                 <p>
-                    Let us face it, recruiting talent on your own is frustrating at best. If you would rather spend that spend that time with friends and family, let our firm handle your talent recruitment or staffing this year for you.
+                    Let us face it, recruiting talent on your own is frustrating at best. If you would rather spend that spend that time with friends and family, let our firm handle your talent recruitment or staffings this year for you.
                 </p>
 
                 <p> Yeah! I have also suffered from this same problem before but today It is no more.</p>
@@ -178,7 +170,7 @@ export default function StaffingPage() {
 
 
                 <p className="text-center mt-4">
-                    <a className="btn btn-outline-success font-weight-bold" href="/staffing/employers">
+                    <a className="btn btn-outline-success font-weight-bold" href="/staffings/employers">
                         Claim your Free 30 Mins Consultation Call! (valued at N10,000) <br />Get in touch now
                     </a>
                 </p>
@@ -214,9 +206,15 @@ export default function StaffingPage() {
                 </div>
             </div>
             {/* <!-- optin end--> */}
-            <p className="text-center mt-4"><a className="btn btn-outline-success font-weight-bold" href="/staffing/leads">DOWNLOAD NOW</a></p>
-
-            <p className="text-center mt-4" style={{ fontSize: 12 }}> <a href="privacy" className="text-success">Privacy Policy</a> | <a href="terms" className="text-success">Terms and Conditions</a></p>
+            <p className="text-center mt-4"><a className="btn btn-outline-success font-weight-bold" href="/staffings/leads">DOWNLOAD NOW</a></p>
+            {/* <!--Container (Footer section) --> */}
+            <footer className="container-fluid text-center" id="desktop">
+                <a href="#goTop" title="To Top">
+                    <span className="fa fa-chevron-up text-success"></span>
+                </a>
+                <p><a href="privacy">Privacy policy</a>   |   <a href="terms">Terms and conditions</a></p>
+                <p>&copy; Siniotech 2024. All right reserved</p>
+            </footer>
         </main>
     )
 

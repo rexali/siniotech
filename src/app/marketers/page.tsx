@@ -27,15 +27,7 @@ export default function MarketersPage() {
           </ul>
         </div>
       </nav>
-      <nav className="nav-tabs mt-5 d-md-none scrollmenu">
-        <a className="nav-link" href="#about">ABOUT</a>
-        <a className="nav-link" href="#service">SERVICES</a>
-        <a className="nav-link" href="#portfolio">PORTFOLIO</a>
-        <a className="nav-link" href="#pricing">PRICING</a>
-        <a className="nav-link" href="#training">TRAINING</a>
-        <a className="nav-link" href="#contact">CONTACT</a>
-        <a className="nav-link" href="https://mujaware.com/blog">BLOG</a>
-      </nav>
+
 
       <div className='container bg-success text-white d-flex justify-content-center align-items-center' style={{ marginTop: 60 }}>
         <div className="row">
@@ -216,10 +208,9 @@ export default function MarketersPage() {
         <a href="#goTop" title="To Top">
           <span className="fa fa-chevron-up text-success"></span>
         </a>
-        <p>&copy; Siniotech 2021. All right reserved</p>
         <p><a href="privacy">Privacy policy</a>   |   <a href="terms">Terms and conditions</a></p>
+        <p>&copy; Siniotech 2024. All right reserved</p>
       </footer>
-
       <div className="card">
         <nav className="navbar navbar-expand-md navbar-light d-md-none fixed-bottom" id="navbarbtm">
           <a className="navbar-brand" href="sms://+2347016807004" ><i className="fa fa-comment"></i></a>

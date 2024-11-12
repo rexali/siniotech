@@ -279,6 +279,13 @@ export default function Home() {
         <Image src='/images/mujawaremap.png' className='d-block img-fluid mx-auto' sizes='100vw' style={{ width: "100%", margin: 10, height: 'auto' }} alt={'map'} width={0} height={0} />
       </div>
       <hr />
+      <footer className="container-fluid text-center mb-4" id="desktop">
+          <a href="#goTop" title="To Top">
+            <span className="fa fa-chevron-up text-success"></span>
+          </a>
+          <p><a href="privacy">Privacy policy</a>   |   <a href="terms">Terms and conditions</a></p>
+          <p>&copy; Siniotech 2024. All right reserved</p>
+        </footer>
       {/* mobile views footers */}
       <div className="card">
         <nav className="navbar navbar-expand-md navbar-light d-md-none fixed-bottom" id="navbarbtm">
