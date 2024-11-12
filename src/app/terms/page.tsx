@@ -1,4 +1,4 @@
-function TermsPage() {
+export default function TermsPage() {
 
     return (
         <main>
