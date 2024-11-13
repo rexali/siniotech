@@ -39,15 +39,6 @@ export default function Page() {
                     border: 'none'
                 }}
                 src="https://docs.google.com/forms/d/e/1FAIpQLSdDG8Ar469CUwOptJptdQcT5YyDqhb2m6b-k-H2iROMlqNkiA/viewform?embedded=true">Loading…</iframe>
-
-            {/* <!--Container (Footer section) --> */}
-            <footer className="container-fluid text-center" id="desktop">
-                <a href="#goTop" title="To Top">
-                    <span className="fa fa-chevron-up text-success"></span>
-                </a>
-                <p><a href="privacy">Privacy policy</a>   |   <a href="terms">Terms and conditions</a></p>
-                <p>&copy; Siniotech 2024. All right reserved</p>
-            </footer>
         </main>
     )
 
