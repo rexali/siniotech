@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function MarketersPage() {
+export default function EcommercePage() {
     return (
         <main>
             <a className="navbar-brand" id="goTop"></a>
@@ -53,7 +53,7 @@ export default function MarketersPage() {
             <div className="jumbotron text-center">
                 <h1 className="text-capitalizez" style={{ fontSize: "larger" }}>How to Get Your Free E-commerce Website to Fast-Track Your Sales</h1>
                 <p style={{ fontSize: "normal" }} >We help small businesses and companies who want to solve their problems with low sales and customer base, so they can focus on other parts of their business operations, stop worrying about low sales, reach more customers or clients and increase revenue.</p>
-                <p className="text-center mt-4"><a className="btn btn-outline-info font-weight-bold" href="/apps/apply">Claim your FREE 30 Minutes Consultation Call! (Valued at N10,000) <br /> Get in touch now</a></p>
+                <p className="text-center mt-4"><a className="btn btn-outline-info font-weight-bold" href="/apps/leads">Claim your FREE 30 Minutes Consultation Call! (Valued at N10,000) <br /> Get in touch now</a></p>
                 {/* <button style={{ fontSize: 20 }} className="btn btn-success  mt-3 text-capitalize" data-toggle="modal"
           data-target="#consultModal">Claim your Free 30 Mins Consultation Call! <br />Get in touch now.</button> */}
             </div>
@@ -132,16 +132,11 @@ export default function MarketersPage() {
                     <iframe
                         className="d-block mx-auto mt-4"
                         style={{
-                            position: 'absolute',
-                            top: 100,
-                            bottom: 0,
-                            right: 0,
-                            left: 0,
-                            width: '100%',
-                            height: '100%',
+                            maxWidth: '100%',
+                            height: '350%',
                             border: 'none'
                         }}
-                        src="https://www.youtube.com/embed/wKLWsVxQs3w" width="700" height="520">Loading…</iframe>
+                        src="https://www.youtube.com/embed/wKLWsVxQs3w" width="350" height="350">Loading…</iframe>
                 </p>
 
                 <p>Many a person or business owners we had helped have these to say about us.</p>
@@ -192,7 +187,7 @@ export default function MarketersPage() {
                 <p>
                     What are you waiting for? Enter your email address and tap next to get started now
                 </p>
-                <p className="text-center mt-4"><a className="btn btn-outline-success font-weight-bold" href="/apps/ecommerce">Claim your FREE 30 Minutes Consultation Call! (Valued at N10,000) <br /> Get in touch now</a></p>
+                <p className="text-center mt-4"><a className="btn btn-outline-success font-weight-bold" href="/apps/leads">Claim your FREE 30 Minutes Consultation Call! (Valued at N10,000) <br /> Get in touch now</a></p>
 
                 {/* <p className='text-center'>
           <button style={{ fontSize: 20 }} className="btn btn-success  mt-3 text-capitalize" data-toggle="modal"
@@ -204,17 +199,17 @@ export default function MarketersPage() {
             <div className='container bg-success text-white d-flex justify-content-center align-items-center' style={{ marginTop: 60 }}>
                 <div className="row">
                     <div className="col-12">
-                        <h4 className="text-white text-center">FREE REPORT:</h4>
-                        <h4 className="text-white text-center">Discover How to Quickly Make Sales and Profits Using Copywriting</h4><br />
+                        {/* <h4 className="text-white text-center">FREE REPORT:</h4> */}
+                        <h4 className="text-white text-center">How to Get Your Free E-commerce Website to Fast-Track Your Sales</h4><br />
                     </div>
 
                     <div className='col-6'>
                         <h5>You will be able to:</h5>
                         <ul className="list-group list-group-flush">
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>Save money without hiring a copywriter.</li>
+                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>Save money without hiring a fullstack engineer.</li>
                             <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>Make sales and profits Quickly.</li>
                             <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>Convert your website visitors into leads & customers.</li>
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>100 copiesa already downloaded.</li>
+                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>10 already set up for clients.</li>
                             <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>Ending soon</li>
                         </ul>
                     </div>
