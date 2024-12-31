@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function EcommercePage() {
     return (
@@ -10,13 +11,13 @@ export default function EcommercePage() {
                 </a>
                 <a className="navbar-brand" href="/">Siniotech</a>
                 <a className="navbar-brand  d-md-none" href="tel:+2347016807004"><i className="fa fa-phone"></i></a>
-                <div className="collapse navbar-collapse" id="navbarCollapse">
+                <div className="collapse navbar-collapsex" id="navbarCollapse">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
                             <a className="nav-link" style={{ color: 'white' }} href="#about">ABOUT</a>
                         </li>
                         <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#service">SERVICES</a></li>
-                        <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="https://mujaware.com/blog">BLOG</a></li>
+                        <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#blog">BLOG</a></li>
                         <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#portfolio">PORTFOLIO</a></li>
                         <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#pricing">PRICING</a></li>
                         <li className="nav-item"><a style={{ color: 'white' }} className="nav-link" href="#training">TRAINING</a></li>
@@ -80,12 +81,9 @@ export default function EcommercePage() {
 
                 </p>
                 <p>
-                    All you need to do is to get product details ready and upload it by simply filling the product form and that is all and start promoting your unique product detail page online. On this we are going to help you on this if you find it challenging. Besides the platform will take care of your payment processing for you if a distance user wants to use online payment options while you take of delivery.
+                    All you need to do is to get product details ready and upload it by simply filling the product form and that is all and start promoting your unique product detail page online. On this we are going to help you on this if you find it challenging. Besides the platform will take care of your payment processing for you if a distance user wants to use online payment options while you take of the delivery.
                 </p>
-                <p>
-                    Alas! There is a solution to your problem which is our complete digital marketing solutions package to transform business and sell your products or services online.
 
-                </p>
                 <p>
                     And those potential customers that comes to your door or shop you will take care of their payment at cash and carry basis while still using the platform.
 
@@ -115,20 +113,19 @@ export default function EcommercePage() {
 
                 <ul>
                     <li>
-                        You don &apos;t need to pay anything for building the website but for a domain name and a hosting platform
+                        You don&apos;t need to pay anything for building the website but for a domain name and a hosting platform
                     </li>
                     <li>
                         You &apos;ll get free update and customised features or functionalities if you can pay your monthly maintenance and retainer fee.
                     </li>
-                    <li>You &apos;ll be able to upload unlimited number of products to sell</li>
-                    <li>You &apos;ll not share the platform with any body except the people you allow or help to upload product in your platform.</li>
-                    <li>You &apos;ll received free content on how to promote your  product details page or the platform as a whole.</li>
+                    <li>You&apos;ll be able to upload unlimited number of products to sell</li>
+                    <li>You&apos;ll not share the platform with any body except the people you allow or help to upload product in your platform.</li>
+                    <li>You&apos;ll received free content on how to promote your  product details page or the platform as a whole.</li>
                 </ul>
 
                 <p>
                     This link here below is a demo of what you are going to get:
 
-                    -------------  embed a video here--------------
                     <iframe
                         className="d-block mx-auto mt-4"
                         style={{
@@ -138,6 +135,8 @@ export default function EcommercePage() {
                         }}
                         src="https://www.youtube.com/embed/wKLWsVxQs3w" width="350" height="350">Loading…</iframe>
                 </p>
+
+                <p>For a live demo of the platform, <Link href={"https://very-deep-tech-client.vercel.app"}>click here.</Link> </p>
 
                 <p>Many a person or business owners we had helped have these to say about us.</p>
                 <ul>
@@ -169,7 +168,7 @@ export default function EcommercePage() {
                     <li>BONUS: FREE 1 Month Data Entry Service to upload your product details on the platform (₦25,000)</li>
                     <li>BONUS: FREE update to the site at anytime you want to add a new feature to the website that are not beyond our capabilities (₦50,000)</li>
                     <li>BONUS: FREE 1 Week Training on how to use the platform (₦50,000) </li>
-                    <li>RAND TOTAL is : ₦800,000</li>
+                    <li>GRAND TOTAL is : ₦800,000</li>
                 </ul>
                 <p>
                     Right now you can get all these set up for you for just N75,000 only for the first month. Are you surprised? Well, please do not be.
@@ -180,7 +179,7 @@ export default function EcommercePage() {
 
                 </p>
                 <p>
-                    If after we have set it up for you and you are dissatisfied or not pleased you can cancel the monthly maintenance fee and get all the money back at anytime by just sending us an email or call.
+                    If after we have set it up for you and you are dissatisfied you can cancel the monthly maintenance fee and get the money back at anytime by just sending us an email or call.
 
                 </p>
 
