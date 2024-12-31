@@ -67,10 +67,10 @@ export default function MarketersPage() {
             <div className='jumbotron'>
                 <p>Dear Business Owners,</p>
                 <p>
-                    Are you having a problem of reaching more prospective customers and boost sales? Yeah I have also suffered from this same problem before but today It's no more.
+                    Are you having a problem of reaching more prospective customers and boost sales? Yeah I have also suffered from this same problem before but today It &apos;s no more.
                 </p>
                 <p>
-                    I have worked hard day and night to solve this one problem and I believe you don't have to go through the same suffering and pain I had gone through.
+                    I have worked hard day and night to solve this one problem and I believe you don &apos;t have to go through the same suffering and pain I had gone through.
 
                 </p>
 
