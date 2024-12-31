@@ -1,5 +1,4 @@
-import Image from '../../../node_modules/next/image';
-import Modal from '../Modal';
+import Image from 'next/image';
 
 
 
