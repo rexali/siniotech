@@ -6,12 +6,12 @@ export default function EcommercePage() {
         <main>
             <a className="navbar-brand" id="goTop"></a>
             <nav className="navbar navbar-expand-md navbar-light fixed-top" style={{ backgroundColor: "green" }} id="navbartop">
-                <a className="navbar-brand" data-toggle="collapse" data-target="#navbarCollapse">
+                <a className="navbar-brand" data-toggle="collapse" data-target="#navbarCollapsex">
                     <span className="fa fa-bars d-md-none" style={{ fontSize: "medium" }}></span>
                 </a>
                 <a className="navbar-brand" href="/">Siniotech</a>
                 <a className="navbar-brand  d-md-none" href="tel:+2347016807004"><i className="fa fa-phone"></i></a>
-                <div className="collapse navbar-collapsex" id="navbarCollapse">
+                <div className="collapse navbar-collapse" id="navbarCollapse">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
                             <a className="nav-link" style={{ color: 'white' }} href="#about">ABOUT</a>
@@ -36,11 +36,11 @@ export default function EcommercePage() {
                     <div className='col-6'>
                         <h5>You will be able to:</h5>
                         <ul className="list-group list-group-flush">
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>Save money without hiring a fullstack engineer.</li>
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>Make sales and profits Quickly.</li>
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>Convert your website visitors into leads & customers.</li>
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>10 already set up for clients.</li>
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>Ending soon</li>
+                            <li className="list-group-item bg-success text-justify" style={{ fontSize: 12 }}><i className="fa fa-star"></i>Save money without hiring a fullstack engineer.</li>
+                            <li className="list-group-item bg-success text-justify" style={{ fontSize: 12 }}><i className="fa fa-star"></i>Make sales and profits Quickly.</li>
+                            <li className="list-group-item bg-success text-justify" style={{ fontSize: 12 }}><i className="fa fa-star"></i>Convert your website visitors into leads & customers.</li>
+                            <li className="list-group-item bg-success text-justify" style={{ fontSize: 12 }}><i className="fa fa-star"></i>10 already set up for clients.</li>
+                            <li className="list-group-item bg-success text-justify" style={{ fontSize: 12 }}><i className="fa fa-star"></i>Ending soon</li>
                         </ul>
                     </div>
                     <div className='col-6'>
@@ -55,8 +55,6 @@ export default function EcommercePage() {
                 <h1 className="text-capitalizez" style={{ fontSize: "larger" }}>How to Get Your Free E-commerce Website to Fast-Track Your Sales</h1>
                 <p style={{ fontSize: "normal" }} >We help small businesses and companies who want to solve their problems with low sales and customer base, so they can focus on other parts of their business operations, stop worrying about low sales, reach more customers or clients and increase revenue.</p>
                 <p className="text-center mt-4"><a className="btn btn-outline-info font-weight-bold" href="/apps/leads">Claim your FREE 30 Minutes Consultation Call! (Valued at N10,000) <br /> Get in touch now</a></p>
-                {/* <button style={{ fontSize: 20 }} className="btn btn-success  mt-3 text-capitalize" data-toggle="modal"
-          data-target="#consultModal">Claim your Free 30 Mins Consultation Call! <br />Get in touch now.</button> */}
             </div>
 
             <div className='jumbotron'>
@@ -161,17 +159,18 @@ export default function EcommercePage() {
 
                 <ul>
                     <li>One-time Set up Fee: ₦25,000</li>
-                    <li>Maintenance Fee: ₦75,000 per month</li>
+                    <li>Maintenance Fee: ₦100,000 per month</li>
                     <li>BONUS: FREE E-COMMERCE WEBSITE (N500,000)</li>
                     <li>BONUS: FREE regular contents on how to promote your products and make sales (₦25,000)</li>
                     <li>BONUS: FREE 1 Month Online Promotion Service for your platform (₦50,000)</li>
                     <li>BONUS: FREE 1 Month Data Entry Service to upload your product details on the platform (₦25,000)</li>
                     <li>BONUS: FREE update to the site at anytime you want to add a new feature to the website that are not beyond our capabilities (₦50,000)</li>
                     <li>BONUS: FREE 1 Week Training on how to use the platform (₦50,000) </li>
-                    <li>GRAND TOTAL is : ₦800,000</li>
+                    <li>BONUS: FREE mobile app platform after one year of paying monthly maintenance fee</li>
+                    <li>GRAND TOTAL is : ₦825,000</li>
                 </ul>
                 <p>
-                    Right now you can get all these set up for you for just N75,000 only for the first month. Are you surprised? Well, please do not be.
+                    Right now you can get all these set up for you for just N100,000 only for the first month. Are you surprised? Well, please do not be.
                 </p>
 
                 <p>
@@ -188,11 +187,6 @@ export default function EcommercePage() {
                 </p>
                 <p className="text-center mt-4"><a className="btn btn-outline-success font-weight-bold" href="/apps/leads">Claim your FREE 30 Minutes Consultation Call! (Valued at N10,000) <br /> Get in touch now</a></p>
 
-                {/* <p className='text-center'>
-          <button style={{ fontSize: 20 }} className="btn btn-success  mt-3 text-capitalize" data-toggle="modal"
-            data-target="#consultModal">Claim your Free 30 Mins Consultation Call! <br />Get in touch now.</button>
-        </p> */}
-
             </div><hr />
 
             <div className='container bg-success text-white d-flex justify-content-center align-items-center' style={{ marginTop: 60 }}>
@@ -205,11 +199,11 @@ export default function EcommercePage() {
                     <div className='col-6'>
                         <h5>You will be able to:</h5>
                         <ul className="list-group list-group-flush">
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>Save money without hiring a fullstack engineer.</li>
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>Make sales and profits Quickly.</li>
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>Convert your website visitors into leads & customers.</li>
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>10 already set up for clients.</li>
-                            <li className="list-group-item bg-success text-justify"><i className="fa fa-star"></i>Ending soon</li>
+                            <li className="list-group-item bg-success text-justify" style={{ fontSize: 12 }}><i className="fa fa-star"></i>Save money without hiring a fullstack engineer.</li>
+                            <li className="list-group-item bg-success text-justify" style={{ fontSize: 12 }}><i className="fa fa-star"></i>Make sales and profits Quickly.</li>
+                            <li className="list-group-item bg-success text-justify" style={{ fontSize: 12 }}><i className="fa fa-star"></i>Convert your website visitors into leads & customers.</li>
+                            <li className="list-group-item bg-success text-justify" style={{ fontSize: 12 }}><i className="fa fa-star"></i>10 already set up for clients.</li>
+                            <li className="list-group-item bg-success text-justify" style={{ fontSize: 12 }}><i className="fa fa-star"></i>Ending soon</li>
                         </ul>
                     </div>
                     <div className='col-6'>
@@ -224,7 +218,7 @@ export default function EcommercePage() {
                 <a href="#goTop" title="To Top">
                     <span className="fa fa-chevron-up text-success"></span>
                 </a>
-                <p><a href="privacy">Privacy policy</a>   |   <a href="terms">Terms and conditions</a></p>
+                <p><Link href="/privacy">Privacy policy</Link>   |   <Link href="/terms">Terms and conditions</Link></p>
                 <p>&copy; Siniotech 2024. All right reserved</p>
             </footer>
             <div className="card">
